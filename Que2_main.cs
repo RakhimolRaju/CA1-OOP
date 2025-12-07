@@ -23,10 +23,7 @@ public class MainClass
                        Console.WriteLine("Please enter a valid file extension starting with a dot (e.g., .mp3, .pdf):");
                        inputExtension = Console.ReadLine();
                      }
-                     else
-                    {
-                     break;
-                    }
+                    
                      ext.ShowFileType(inputExtension);
                     break;
 
@@ -41,4 +38,5 @@ public class MainClass
         }
        
     }
+
 }
